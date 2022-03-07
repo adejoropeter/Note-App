@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700&display=swap');
+
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      list-style: none;
+}
+
+html {
+      font-size: 10px;
+}
+
+body {
+      font-family: 'Montserrat', sans-serif;
+      background-color: #e5e5e5;
+
+}
+
+.heading {
+      padding: 5rem;
+      max-width: 50rem;
+      background-color: #fff;
+      margin: 10vh auto;
+      overflow: hidden;
+      box-shadow: inset -3px 2px 2px red;
+}
+
+.inputPagh input {
+      border: none;
+      outline: none;
+      border-bottom: 1px solid grey;
+      background: none;
+      width: 100%;
+      margin-bottom: 2rem;
+}
+
+.inputPagh p, .descText p {
+      font-weight: 700;
+      margin-bottom: 1rem;
+      color: grey;
+      font-size: 1.5rem;
+}
+
+.descText textarea {
+      outline: none;
+      background: none;
+      border: 0;
+      /* border-bottom: 1px solid grey; */
+}
+
+.btn {
+      display: flex;
+      justify-content: flex-end;
+}
+
+.btn button {
+      background-color: #fff;
+      padding: .8rem 1.3rem;
+      outline: 0;
+      border: 1.5px solid grey;
+      font-size: 1.4rem;
+      font-weight: 700;
+
+}
+
+#magic {
+      display: flex;
+      flex-wrap: wrap;
+}
+
+.div {
+      margin-right: 10px;
+      width: 300px;
+      height: fit-content;
+      background-color: aquamarine;
+      padding: 2rem;
+}
+
+.div:not(:last-child) {
+      margin-right: 2rem;
+      margin-bottom: 2rem;
+}
+
+.text {
+      font-weight: 800;
+      text-decoration: underline;
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+
+}
+
+.div input {
+      color: grey;
+      font-size: 1.3rem;
+      margin-bottom: 1.5rem;
+      border: 0;
+      outline: 0;
+      background: none;
+      display: block;
+
+}
+
+button {
+      margin-right: 10px;
+}
